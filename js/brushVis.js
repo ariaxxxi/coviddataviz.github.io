@@ -39,7 +39,7 @@ class BrushVis {
         vis.svg.append('g')
             .attr('class', 'title')
             .append('text')
-            .text('Title for Timeline')
+            .text('Brushable Timeline')
             .attr('transform', `translate(${vis.width / 2}, 20)`)
             .attr('text-anchor', 'middle');
 
